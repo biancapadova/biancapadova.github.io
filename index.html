@@ -7,46 +7,52 @@
 
   <style>
     body {
-      margin: 36px 18px;
-      max-width: 880px;
+      margin: 40px 20px;
+      max-width: 900px;
       font-family: "Courier New", Courier, monospace;
       line-height: 1.55;
-      color: #7a5c8e; /* SMOKY LAVENDER INK */
+      color: #1f5cff;
       background: #ffffff;
     }
 
     .name {
       font-weight: 700;
+      margin-bottom: 4px;
     }
 
     .contact {
-      margin-bottom: 28px;
+      margin-bottom: 36px;
+      opacity: 0.6; /* overall softening */
     }
 
     h2 {
-      margin-top: 32px;
-      margin-bottom: 10px;
-      font-size: 16px;
+      margin-top: 36px;
+      margin-bottom: 14px;
+      font-size: 18px;
       font-weight: 700;
     }
 
     ul {
-      margin-top: 6px;
-      padding-left: 22px;
+      padding-left: 28px;
+      margin-top: 8px;
     }
 
     li {
-      margin: 8px 0;
+      margin: 12px 0;
     }
 
     a {
-      color: #b84a7a;
+      color: #1f5cff;
       text-decoration: underline;
       text-decoration-thickness: 1px;
     }
 
     a:hover {
       text-decoration-thickness: 3px;
+    }
+
+    .meta {
+      opacity: 0.55;
     }
   </style>
 </head>
@@ -55,7 +61,7 @@
   <div class="name">Bianca Padova</div>
 
   <div class="contact">
-    biancapadova <span style="opacity:0.6;">[at]</span> gmail <span style="opacity:0.6;">[dot]</span> com
+    biancapadova <span class="meta">[at]</span> gmail <span class="meta">[dot]</span> com
   </div>
 
   <h2>Writing</h2>
@@ -68,25 +74,28 @@
     </li>
   </ul>
 
-<h2>Presentations</h2>
-<ul>
-  <li>
-    <span style="white-space: nowrap;">
-      <a href="https://pes.hds.harvard.edu/publications/body-site-exploitation-and-healing-case-yoga-people">
-        The Body as a Site of Exploitation and Healing: The Case of Yoga to the People
-      </a>, Program for the Evolution of Spirituality, Harvard University
-    </span>
-  </li>
+  <h2>Presentations</h2>
+  <ul>
+    <li>
+      <span style="white-space: nowrap;">
+        <a href="https://pes.hds.harvard.edu/publications/body-site-exploitation-and-healing-case-yoga-people">
+          The Body as a Site of Exploitation and Healing: The Case of Yoga to the People
+        </a>,
+        <span class="meta">Program for the Evolution of Spirituality, Harvard University</span>
+      </span>
+    </li>
 
-<li>
-  <span style="white-space: nowrap;">
-    <a href="https://event.newschool.edu/deanshonorsymposium">
-      Mortality, Sacrality and Systemic Injustice: Aghor Sadhana and the Social Construction of Death
-    </a>, Dean’s Honor Symposium, The New School
-  </span>
-</li>
-
+    <li>
+      <span style="white-space: nowrap;">
+        <a href="https://event.newschool.edu/deanshonorsymposium">
+          Mortality, Sacrality and Systemic Injustice: Aghor Sadhana and the Social Construction of Death
+        </a>,
+        <span class="meta">Dean’s Honor Symposium, The New School</span>
+      </span>
+    </li>
+  </ul>
 </body>
 </html>
+
 
 
